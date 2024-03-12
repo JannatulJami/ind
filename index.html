@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Final Project</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="favicon.png" rel="icon" type="image/png">
+</head>
+<body>
+  <div class="banner">
+		Thomas A. Edison CTE HS
+		<img src="myavatar.jpg" id="logo">
+		<h1>Web Development</h1>
+		<h1>Final Project Ghost School</h1>
+		<h1>January 17, 2024</h1>
+		<h1>Jannatul Jami</h1>
+	</div>
+	<div class="container">
+		<div class="wave" id="l1">
+			Instructions<br>
+			<br>
+    <p>This game is designed to test out the core memory skills of the players. The rules of the game is to look at the before image for 5 seconds and roll your mouse on it and find the three item switches. There are three levels easy, medium, and hard which gets prggrassivly more difficult after each round. You cannot look back at the before image after looking at it the first time. </p>
+		</div>
+		<div class="wave" id="easy">
+			<h1>Easy Mode</h1>
+    <hr>
+    <h3> HTML Roll over/out mouseEvent </h3>
+    <img src="before-easy.jpg" width='400'
+      onmouseover="this.src='easy-after.jpg';"
+      onmouseout="this.src='before-easy.jpg';">
+    <hr>
+			</div>
+		<div class="wave" id="medium">
+			<h1>Medium Mode</h1>
+      <img src="medium-before.jpg" width='400'
+        onmouseover="this.src='medium-after.jpg';"
+        onmouseout="this.src='medium-before.jpg';">
+		</div>
+		<div class="wave" id="hard">
+			<h1>Hard Mode</h1>
+      <img src="hard-before.jpg" width='400'
+      onmouseover="this.src='hard-after.jpg';"
+      onmouseout="this.src='hard-before.jpg';">
+		</div>
+		
+	
+		</div>
+
+</body>
+
+</html>
